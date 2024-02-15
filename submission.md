@@ -210,6 +210,24 @@ end;
 
 ## Reflections on language design, orthogonality
 
-(your answers here)
+### Language Design
+
+1. **Readability**: While the English-like syntax for the arithmetic expressions can be intuitive for beginners, it may actually reduce readability for other, more experienced developers who are used to the arithmetic operators.
+
+2. **Verbosity**: The use of "begin" and "end" for code blocks, like in Pascal, makes the structure of the code clear but also adds verbosity compared to curly braces in other languages (like java). The expressions could get very long, and one would have to write (and read) more to achieve the same thing that just one character can in other languages.
+
+3. **Consistency with other languages**: The ":=" is used to assign values in pascal-like languages, which is not as intuitive as just the "=" most other languages use and might lead to confusion.
+
+   
+### Orthogonality
+
+1. **Combination of Features**: the mix of English-like and traditional programming constructs might not be intuitive for all users and could introduce a learning curve that affects the overall language orthogonality.
+
+2. **Feature Interaction**: There may be some limitations in how features interact. For example, if the language also supported overloading of functions or operators, the English-like syntax for arithmetic could become complex to parse and understand, especially with user-defined meanings for "plus", "times" and so on.
+
+3. **Language Predictability**: The predictability of the language could be affected by this mix of syntax styles. Users may expect certain constructs to behave similarly to those in other languages they are familiar with, but the unique syntax choices of this language could lead to unexpected behaviors.
+
+To sum it up, while the chosen syntax styles could make the language stand out and be more accessible for beginners, we must consider the potential impacts on readability, verbosity, and orthogonality, especially for users who are used to more traditional programming languages.
+
 
 
